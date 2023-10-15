@@ -14,6 +14,12 @@ Dataproc: Used for data processing tasks similar to Amazon EMR.
 BigQuery: A serverless data warehouse used for analysis.
 
 ## Implementation:
+
+Data Model:
+![image](https://github.com/abhi-nambiar/Edtech-Product-Analytics-ETL/assets/123143416/607d1926-7626-42a4-894d-7408e868889f)
+
+![image](https://github.com/abhi-nambiar/Edtech-Product-Analytics-ETL/assets/123143416/252af063-0c80-47f2-a90e-b27359ffc875)
+
 Data Generation: Sample Data was generated using Bokaroo API
 Data Ingestion: Hubspot-generated user engagement data was collected and stored in Google Cloud Storage using Apache Nifi.
 Data Processing: Dataproc, functioning as a virtual cluster, was employed to run scripts and process the data. This was where the heavy lifting of data transformation and analysis took place.
