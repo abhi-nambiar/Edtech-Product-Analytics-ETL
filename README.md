@@ -20,7 +20,7 @@ Data Model:
 
 ![image](https://github.com/abhi-nambiar/Edtech-Product-Analytics-ETL/assets/123143416/252af063-0c80-47f2-a90e-b27359ffc875)
 
-Data Generation: Sample Data was generated using Bokaroo API
+Data Generation: Sample Data was generated using Mockaroo API
 Data Ingestion: Hubspot-generated user engagement data was collected and stored in Google Cloud Storage using Apache Nifi.
 Data Processing: Dataproc, functioning as a virtual cluster, was employed to run scripts and process the data. This was where the heavy lifting of data transformation and analysis took place.
 Data Storage: The processed data was then loaded into BigQuery. This served as the centralized data warehouse where comprehensive analysis could be conducted.
